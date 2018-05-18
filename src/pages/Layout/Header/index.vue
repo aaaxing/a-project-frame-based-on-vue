@@ -19,7 +19,7 @@
     <Poptip placement="bottom-start"  class='poptips'>
       <div class='poptip-container'>
         <Icon class='nav-icon' type="alert-circled"></Icon>
-        <div class='tag' style='background:#EA3F3F'>50</div>
+        <div class='tag' style='background:#FE6B6B'>50</div>
       </div>
       <div slot='content'>
         <ul style="margin-bottom:0">
@@ -35,7 +35,7 @@
     <Poptip placement="bottom-start" class='poptips'>
       <div class='poptip-container'>
         <Icon class='nav-icon' type="help-buoy"></Icon>
-        <div class='tag' style='background:#EA3F3F'>5</div>
+        <div class='tag' style='background:#FE6B6B'>5</div>
       </div>
       <div slot='content'>
         <ul style="margin-bottom:0">
@@ -236,9 +236,10 @@ export default{
 }
 .tag{
   position: absolute;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
+  width: 18px;
+  height: 18px;
+  line-height: 16px;
+  text-align: center;
   color: white;
   font-size: 5px;
   right: 3px;

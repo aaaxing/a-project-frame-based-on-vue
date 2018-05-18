@@ -1,6 +1,6 @@
 <template>
   <div class='side-container'>
-    <div class='left-title animated fadeIn' v-show='status'>云南省电子运单系统</div>
+    <div class='left-title animated fadeIn' v-show='status'>企业管理平台</div>
     <Icon type="navicon" @click.native="foldLeft" class='top-icon'></Icon>
     <div class='menu-box  animated fadeIn' v-show='status'>
       <div class='modal-box-l'>
@@ -151,7 +151,7 @@ export default {
   width:100%;
 }
 .left-title{
-  margin-left:10px;
+  margin-left:14px;
   font-size: 22px;
   line-height: 30px;
   font-weight: 200;

@@ -13,7 +13,9 @@
             @changeBg='changeBackground'
             :topShow = "topShow"
           ></Header>
-          <div style="height:400px;background:white"></div>
+          <Nav></Nav>
+          <Content></Content>
+          <Footer></Footer>
         </div>
       </div>
       <div class='right' :class="rightSide?'right-show':'right-hide'">
@@ -27,6 +29,9 @@ let limitWidth = 992 //限制左边菜单栏最小显示屏幕宽度
 let topLimit = 1100  //顶部状态栏部分显示最小宽度
 import Sidebar from "./Sidebar/index"
 import Header from "./Header/index"
+import Nav from './Nav/index'
+import Footer from './Footer/index'
+import Content from './Content/index'
 
 export default {
   data () {
@@ -62,7 +67,10 @@ export default {
   },
   components:{
     Sidebar,
-    Header
+    Header,
+    Nav,
+    Footer,
+    Content
   },
   computed: {
     //背景图片
